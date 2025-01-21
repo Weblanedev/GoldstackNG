@@ -104,22 +104,22 @@ const Billing = () => {
   return (
     <div className="w-full h-full flex flex-col pt-[66px] md:pt-[0px]">
       <section className="relative h-[250px] md:h-[300px]">
-        <div className="flex flex-col gap-2 items-center justify-center h-full w-full">
+        <div className="flex flex-col items-center justify-center w-full h-full gap-2">
           <h1 className="font-medium md:font-semibold text-[50px] sm:text-[40px] md:text-[50px] md:text-left leading-snug md:leading-[62px] text-center text-rose-950">
             Order Details
           </h1>
-          <p>Below is the summary of your order from Belluvo store</p>
+          <p>Below is the summary of your order from Goldstack Technologies</p>
         </div>
       </section>
 
       <section className="relative p-10 md:px-[130px] md:pb-[20px] flex flex-col lg:flex-row gap-8 items-center lg:items-start w-full justify-center">
-        <div className="flex flex-col gap-8 items-start w-full justify-center mb-20 lg:pr-8 lg:border-r">
+        <div className="flex flex-col items-start justify-center w-full gap-8 mb-20 lg:pr-8 lg:border-r">
           <div className="flex flex-col gap-2.5 text-[#181616] items-start justify-center lg:w-[500px]">
             <h2 className="text-[32px] font-medium">Billing details</h2>
           </div>
 
           <div className="w-full lg:w-[500px]">
-            <form className="mx-auto w-full flex flex-col gap-5">
+            <form className="flex flex-col w-full gap-5 mx-auto">
               <div className="flex flex-col w-full gap-5 md:flex-row">
                 <input
                   type="text"

@@ -10,7 +10,7 @@ export default function CompanyHistory() {
   return (
     <>
       <hr />
-      <div className="container mb-20 mt-10">
+      <div className="container mt-10 mb-20">
         <h1 className="mb-5 text-4xl font-bold text-gray-900 dark:text-gray-300">
           Our Company History
         </h1>
@@ -19,7 +19,7 @@ export default function CompanyHistory() {
             Inception
           </h2>
           <p className="text-gray-500 dark:text-gray-400">
-            Welcome to the journey of Belluvo – a tale of passion, innovation,
+            Welcome to the journey of BellGoldstack Technologiesuvo – a tale of passion, innovation,
             and unwavering commitment. Our story began with a simple yet
             powerful vision: to provide people with high-quality, affordable
             products that enhance their lives.
@@ -31,7 +31,7 @@ export default function CompanyHistory() {
             Early Strides
           </h2>
           <p className="text-gray-500 dark:text-gray-400">
-            In the early years, Belluvo navigated the dynamic landscape of
+            In the early years, Goldstack Technologies navigated the dynamic landscape of
             online retail with determination and a thirst for excellence. Our
             dedicated team worked tirelessly to establish a solid foundation,
             laying the groundwork for what would become a transformative force

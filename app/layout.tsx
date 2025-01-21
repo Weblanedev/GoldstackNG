@@ -18,7 +18,7 @@ import { IUser } from '@/lib/definitions'
 import { Metadata } from 'next/types'
 
 export const metadata: Metadata = {
-  title: "Belluvo store - Best Online Shopping Store | Shipping | 100% Refund",
+  title: "Goldstack Technologies - Best Online Shopping Store | Shipping | 100% Refund",
   description: "Shop online for Electronics, Fashion, Home & Kitchen, Beauty & Grooming, Health, Toys, Baby, Books, Sports, etc. on desertcart. ✓Secure Shopping Platform ✓70M+ Products ✓FREE Delivery ✓FREE Returns",
   // icons: {
   //   icon: [
@@ -74,7 +74,7 @@ export default async function RootLayout({
             user
           }
         }}>
-          <div className="app bg-white dark:bg-gray-900">
+          <div className="bg-white app dark:bg-gray-900">
             <Header />
 
             {children}

@@ -11,7 +11,7 @@ import { Features } from '@/lib/components/shared/features'
 // import { MobileApps } from '@/lib/components/shared/mobile-apps'
 
 export const metadata: Metadata = {
-  title: "Belluvo store - Best Online Shopping Store | Shipping | 100% Refund",
+  title: "Goldstack Technologies - Best Online Shopping Store | Shipping | 100% Refund",
   description: "Shop online for Electronics, Fashion, Home & Kitchen, Beauty & Grooming, Health, Toys, Baby, Books, Sports, etc. on desertcart. ✓Secure Shopping Platform ✓70M+ Products ✓FREE Delivery ✓FREE Returns",
   // icons: {
   //   icon: [
@@ -43,24 +43,24 @@ export default async function Home() {
         <Partners />
       </section> */}
 
-      <section className="container mx-auto flex flex-col items-center gap-14 px-4 py-20 md:px-16 lg:flex-row lg:gap-20">
-        <div className="flex flex-1 flex-col gap-2">
-          <span className="block font-semibold uppercase tracking-widest text-yellow-600"></span>
-          <h2 className=" my-3 text-3xl font-bold capitalize md:text-4xl xl:text-5xl">
+      <section className="container flex flex-col items-center px-4 py-20 mx-auto gap-14 md:px-16 lg:flex-row lg:gap-20">
+        <div className="flex flex-col flex-1 gap-2">
+          <span className="block font-semibold tracking-widest text-yellow-600 uppercase"></span>
+          <h2 className="my-3 text-3xl font-bold capitalize md:text-4xl xl:text-5xl">
             Enjoy Top Deals and Discounts!
           </h2>
           <p className="text-lg leading-loose">
             We have a dedicated team that is always available to make sure your
-            shopping experience on Belluvo is effortless.
+            shopping experience on Goldstack Technologies is effortless.
           </p>
           {/* <Link href="/contact">
-          <button className="mt-5 w-fit md:text-base text-sm hover:border-2 border-2 border-transparent font-semibold py-3 px-8 md:px-10 text-white bg-rose-700 hover:border-rose-700 hover:bg-yellow-600 hover:shadow-yellow-600 hover:shadow-2xl rounded-xl">
+          <button className="px-8 py-3 mt-5 text-sm font-semibold text-white border-2 border-transparent w-fit md:text-base hover:border-2 md:px-10 bg-rose-700 hover:border-rose-700 hover:bg-yellow-600 hover:shadow-yellow-600 hover:shadow-2xl rounded-xl">
             Contact Us
           </button>
           </Link> */}
         </div>
 
-        <div className="relative w-full flex-1">
+        <div className="relative flex-1 w-full">
           <div className="before:-z-50 before:bg-none md:before:absolute md:before:-bottom-24 md:before:-right-16 md:before:h-full md:before:w-full md:before:bg-[url('/videobg.png')] md:before:bg-contain md:before:bg-right-bottom md:before:bg-no-repeat lg:before:-bottom-20 lg:before:-right-12 xl:before:-right-5">
             <Image
               src={

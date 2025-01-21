@@ -34,9 +34,9 @@ export const Header = () => {
   return (
     <>
       <nav className="relative bg-white shadow dark:bg-gray-800">
-        <div className="container mx-auto flex items-center justify-between px-6 py-4">
+        <div className="container flex items-center justify-between px-6 py-4 mx-auto">
           <Link href="/" className="font-extrabold uppercase">
-            Belluvo
+            Goldstack
           </Link>
           <div className="flex items-center justify-between md:order-2">
             <div className="flex items-center justify-center">
@@ -58,7 +58,7 @@ export const Header = () => {
                 {!isMenuOpen && (
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    className="h-6 w-6"
+                    className="w-6 h-6"
                     fill="none"
                     viewBox="0 0 24 24"
                     stroke="currentColor"
@@ -74,7 +74,7 @@ export const Header = () => {
                 {isMenuOpen && (
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    className="h-6 w-6"
+                    className="w-6 h-6"
                     fill="none"
                     viewBox="0 0 24 24"
                     stroke="currentColor"

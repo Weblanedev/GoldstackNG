@@ -70,16 +70,16 @@ const Contact = () => {
   return (
     <div className="w-full h-full flex flex-col pt-[66px] md:pt-[0px]">
       <section className="relative h-[250px] md:h-[300px]">
-        <div className="flex flex-col gap-2 items-center justify-center h-full w-full">
+        <div className="flex flex-col items-center justify-center w-full h-full gap-2">
           <h1 className="font-medium md:font-semibold text-[50px] sm:text-[40px] md:text-[50px] md:text-left leading-snug md:leading-[62px] text-center text-orange-950">
             Contact Us
           </h1>
-          <p>Find the best way to get help and connect with belluvo store</p>
+          <p>Find the best way to get help and connect with Goldstack Technologies</p>
         </div>
       </section>
 
       <section className="relative p-10 md:px-[80px] md:pt-[0px] md:mb-[100px] flex flex-col md:flex-row gap-10 items-start w-full justify-between">
-        <div className="w-full flex gap-8 flex-col items-center justify-center lg:border-r pr-10">
+        <div className="flex flex-col items-center justify-center w-full gap-8 pr-10 lg:border-r">
           <div className="flex flex-col gap-2.5 text-[#181616] items-center justify-center md:w-[720px]">
             <h4 className="text-base font-medium">GET IN TOUCH</h4>
             <h2 className="text-[35px] font-medium">Schedule Meeting</h2>
@@ -91,7 +91,7 @@ const Contact = () => {
 
           <div className="w-full md:w-[720px]">
             <form
-              className="mx-auto w-full flex flex-col gap-5"
+              className="flex flex-col w-full gap-5 mx-auto"
               onSubmit={handleSubmit}
             >
               <div className="flex flex-col w-full gap-5 md:flex-row">
@@ -157,7 +157,7 @@ const Contact = () => {
           <div className="flex flex-col gap-2.5 text-[#181616] items-center justify-center my-[34px]">
             <h2 className="text-[30px] font-medium">Contact Details</h2>
           </div>
-          <div className="flex gap-5 items-center justify-center">
+          <div className="flex items-center justify-center gap-5">
             <div className='pt-[0px] w-[35px] h-[35px] relative'>
               <img src='/images/phone.png' className='rounded-[12px]' alt=""></img>
             </div>
@@ -165,22 +165,22 @@ const Contact = () => {
               +234 913-934-8118
             </a>
           </div>
-          <div className="flex gap-5 items-start justify-center">
+          <div className="flex items-start justify-center gap-5">
             <div className='pt-[24px] w-[35px] h-[35px] relative'>
               <img src='/images/location.png' className='rounded-[12px]' alt=""></img>
             </div>
             <h4 className="text-[20px] leading-[24px] font-medium text-rose-500">
             Customer Success: 1 Adedeji Adekola Street Lekki Phase 1, Lagos Nigeria.</h4>
           </div>
-          <div className="flex gap-5 items-start justify-center">
+          <div className="flex items-start justify-center gap-5">
             <img src={"/images/mail.png"} alt="" className="w-6 pt-1" />
             <div className="flex flex-col items-start justify-center gap-3">
-              <a className="text-[20px] leading-[24px] font-medium text-rose-500" href="mailto:info@belluvo.ng">
-                info@belluvo.com
+              <a className="text-[20px] leading-[24px] font-medium text-rose-500" href="mailto:info@goldstack.ng">
+                info@goldstack.com
               </a>
             </div>
           </div>
-          <div className="flex gap-5 items-start justify-center">
+          <div className="flex items-start justify-center gap-5">
             <img src={"/images/location.png"} alt="" className="w-6 pt-1" />
             <div className="flex flex-col items-start justify-center gap-3">
               <h4 className="text-[20px] leading-[24px] font-medium text-rose-500">
