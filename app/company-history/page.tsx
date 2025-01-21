@@ -19,7 +19,7 @@ export default function CompanyHistory() {
             Inception
           </h2>
           <p className="text-gray-500 dark:text-gray-400">
-            Welcome to the journey of BellGoldstack Technologiesuvo – a tale of passion, innovation,
+            Welcome to the journey of Goldstack Technologies – a tale of passion, innovation,
             and unwavering commitment. Our story began with a simple yet
             powerful vision: to provide people with high-quality, affordable
             products that enhance their lives.
