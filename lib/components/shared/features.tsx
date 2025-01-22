@@ -2,7 +2,7 @@ export const Features = () => {
   return (
     <>
       <section>
-        <div className="container mx-auto px-6 py-12">
+        <div className="container px-6 py-12 mx-auto">
           <div className="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
             <div>
               <svg
@@ -17,13 +17,13 @@ export const Features = () => {
               </svg>
 
               <h1 className="mt-4 text-xl font-semibold text-rose-700 dark:text-white">
-                Customer Satisfaction
+                Happy Customers
               </h1>
 
               <p className="mt-2 text-gray-500 dark:text-gray-400">
-                Our store is curated maximize customer satisfactions, needs and
-                desires. Crafted with high-quality products that are perfect
-                choice for leaving our customers delighted!
+                We prioritize providing our customers with the highest quality
+                products. Our carefully curated selection ensures you'll find
+                the perfect items to leave you delighted.
               </p>
             </div>
 
@@ -41,13 +41,12 @@ export const Features = () => {
               </svg>
 
               <h1 className="mt-4 text-xl font-semibold text-rose-700 dark:text-white">
-                Express Shipping
+                Fast & Convenient Shipping
               </h1>
 
               <p className="mt-2 text-gray-500 dark:text-gray-400">
-                Say goodbye to long waits! Our products come with express
-                shipping options to get your order to you in record time. It's
-                the ultimate choice for those who need their items ASAP
+                Receive your orders quickly with our express shipping options.
+                Get your items when you need them most.
               </p>
             </div>
 
@@ -64,13 +63,12 @@ export const Features = () => {
               </svg>
 
               <h1 className="mt-4 text-xl font-semibold text-rose-700 dark:text-white">
-                Premium Shopping Experience
+                Experience Premium Shopping
               </h1>
 
               <p className="mt-2 text-gray-500 dark:text-gray-400">
-                Elevate your shopping experience to unparalleled levels with our
-                Premium Shopping Style. This product is meticulously crafted to
-                not only meet but exceed our customers' expectations.
+                Indulge in a truly exceptional shopping experience. Our products
+                are meticulously crafted to exceed your expectations.
               </p>
             </div>
           </div>

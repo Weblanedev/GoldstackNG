@@ -5,7 +5,7 @@ import Link from "next/link";
 export const Banner = () => {
 
 	const style = {
-		backgroundImage: `url(/banner01.jpg)`,
+		backgroundImage: `url(/banner02.jpg)`,
 	};
 
 	const scrollToProducts = () => {
@@ -20,33 +20,31 @@ export const Banner = () => {
     <>
       <section
         style={style}
-        className="relative bg-cover bg-center bg-no-repeat"
+        className="relative bg-center bg-no-repeat bg-cover"
       >
         <div className="absolute inset-0 bg-white/75 dark:bg-gray-500/75 sm:bg-transparent sm:bg-gradient-to-r sm:from-white/45 sm:to-white/15 dark:sm:from-gray-700/95 dark:sm:to-gray-700/25 rtl:sm:bg-gradient-to-l"></div>
 
-        <div className="relative mx-auto px-4 py-32 lg:container sm:px-6 lg:flex lg:h-2/2 lg:items-center lg:px-8">
+        <div className="relative px-4 py-32 mx-auto lg:container sm:px-6 lg:flex lg:h-2/2 lg:items-center lg:px-8">
           <div className="max-w-xl text-center sm:text-left rtl:sm:text-right">
             <h1 className="text-3xl font-extrabold dark:text-white sm:text-5xl">
-              Shop for original and quality items,
+            Shop quality,
               <strong className="block font-extrabold text-rose-700">
                 {" "}
                 at the best prices{" "}
               </strong>
             </h1>
 
-            <p className="mt-4 max-w-lg dark:text-gray-300 sm:text-xl/relaxed">
-              Explore our official stores today to see a wide range of popular
-              brands that sell directly on our platform and get assured of the
-              best prices and quality of products
+            <p className="max-w-lg mt-4 dark:text-gray-300 sm:text-xl/relaxed">
+            Experience the convenience of shopping directly from official brand stores. Enjoy the best prices and assured product quality.
             </p>
 
-            <div className="mt-8 flex flex-wrap gap-4 text-center">
+            <div className="flex flex-wrap gap-4 mt-8 text-center">
               <Link href="/products?category=electronics">
                 <button
                   // onClick={scrollToProducts}
-                  className="block w-full rounded bg-rose-600 px-12 py-3 text-sm font-medium text-white shadow hover:bg-rose-700 focus:outline-none active:bg-rose-500 sm:w-auto"
+                  className="block w-full px-12 py-3 text-sm font-medium text-white rounded shadow bg-rose-600 hover:bg-rose-700 focus:outline-none active:bg-rose-500 sm:w-auto"
                 >
-                  Start Shopping
+                  Shop Now
                 </button>
               </Link>
             </div>
