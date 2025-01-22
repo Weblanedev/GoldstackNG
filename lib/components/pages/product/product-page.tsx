@@ -192,7 +192,7 @@ export const ProductPage = () => {
         <>
             <hr />
             {Object.keys(filters).length > 0 && (
-                <div className="container grid grid-cols-2 items-start gap-6 pb-16 pt-4 md:grid-cols-4">
+                <div className="container grid items-start grid-cols-2 gap-6 pt-4 pb-16 md:grid-cols-4">
                     <div className="text-center md:hidden">
                         <button
                             className="mb-2 mr-2 block rounded-lg px-5 py-2.5 text-sm font-medium text-white hover:bg-blue-800 focus:outline-none focus:ring-4 focus:ring-blue-300 bg-blue-600 hover:bg-blue-700 focus:ring-blue-800 md:hidden"
@@ -223,13 +223,13 @@ export const ProductPage = () => {
                             : '-translate-x-full'}`}
                         aria-labelledby="drawer-label"
                     >
-                        <div className="sticky top-0 bg-white px-4 pb-2 pt-4 dark:bg-gray-900">
+                        <div className="sticky top-0 px-4 pt-4 pb-2 bg-white dark:bg-gray-900">
                             <h5
                                 id="drawer-label"
                                 className="inline-flex items-center text-base font-semibold text-gray-500 dark:text-gray-400"
                             >
                                 <svg
-                                    className="mr-2 h-5 w-5"
+                                    className="w-5 h-5 mr-2"
                                     aria-hidden="true"
                                     fill="currentColor"
                                     viewBox="0 0 20 20"
@@ -249,7 +249,7 @@ export const ProductPage = () => {
                             >
                                 <svg
                                     aria-hidden="true"
-                                    className="h-5 w-5"
+                                    className="w-5 h-5"
                                     fill="currentColor"
                                     viewBox="0 0 20 20"
                                     xmlns="http://www.w3.org/2000/svg"
@@ -273,16 +273,16 @@ export const ProductPage = () => {
                     ></div>
 
                     {/* <div
-                        className="hidden rounded border border-gray-200 bg-white shadow dark:border-gray-600 dark:bg-gray-900 md:block"
+                        className="hidden bg-white border border-gray-200 rounded shadow dark:border-gray-600 dark:bg-gray-900 md:block"
                     >
                         <ProductFilters onFilterChange={handleFilterChange} filters={filters} />
                     </div> */}
 
                     <div className="col-span-3">
                         {totalProducts > 0 && (
-                            <div className="mb-4 flex items-center">
+                            <div className="flex items-center mb-4">
                                 <p className="dark:text-gray-300">{totalProducts + 26} Products Showing</p>
-                                <div className="ml-auto flex gap-2">
+                                <div className="flex gap-2 ml-auto">
                                     <div
                                         className={`${grid
                                             ? 'border-primary bg-primary text-white'
@@ -330,10 +330,10 @@ export const ProductPage = () => {
                         )}
 
                         {totalProducts < 1 && (
-                            <div className="flex h-96 flex-col items-center justify-center">
+                            <div className="flex flex-col items-center justify-center h-96">
                                 <p className="text-2xl font-semibold text-gray-500 dark:text-gray-300">No products found</p>
                                 <button
-                                    className="ml-2 block text-blue-500 hover:text-blue-600 dark:text-blue-400 dark:hover:text-blue-500"
+                                    className="block ml-2 text-blue-500 hover:text-blue-600 dark:text-blue-400 dark:hover:text-blue-500"
                                     onClick={clearFilters}
                                 >
                                     Clear all filters

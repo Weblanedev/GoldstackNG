@@ -18,8 +18,8 @@ import { IUser } from '@/lib/definitions'
 import { Metadata } from 'next/types'
 
 export const metadata: Metadata = {
-  title: "Goldstack Technologies - Best Online Shopping Store | Shipping | 100% Refund",
-  description: "Shop online for Electronics, Fashion, Home & Kitchen, Beauty & Grooming, Health, Toys, Baby, Books, Sports, etc. on desertcart. ✓Secure Shopping Platform ✓70M+ Products ✓FREE Delivery ✓FREE Returns",
+  title: "Goldstack Technologies - Best Online Shopping Store",
+  description: "Find everything you need online at Goldstack Technologies. Shop electronics, fashion, home goods, and more with fast shipping and a 100% refund guarantee.",
   // icons: {
   //   icon: [
   //     {
